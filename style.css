@@ -1,3 +1,10 @@
+.nav-1{
+    height: 100px;
+    /* line-height: 100px; */
+    /* float: left; */
+}
+
+
 .bug-text-color {
     fill: white;
 }
@@ -16,23 +23,10 @@
 
 .logo{
     display:inline-block ;
-    margin: auto 160px auto 160px;
+    margin: auto 10px auto 200px;
 }
-.buttons{
-    display:inline-block ;
-    text-align: center;
-    margin-bottom: 100ppx;
 
-}
-.buttons a {
-    padding: 20px;
-    text-decoration: none;align-items: center;
-    margin: 20px;
-    
-}
-body > navbar > div.buttons{
-    
-}
+
 
 ul .lazy-loaded{
     width: 24px;
@@ -50,13 +44,59 @@ ul {
     padding: 0;
     display: inline-block;
     margin-left:160px;
+    margin-top: 0;
+    margin-bottom: 0;
     
 }
 
 ul li{
     display: inline-block;
-    margin: 10px;
+    margin: 20px;
     color: grey;
     
 }
 
+.buttons{
+    height: 10vh;
+    display: inline-block;
+    vertical-align:middle;
+    padding-top: 40px;
+
+
+}
+.buttons a {
+    padding: 20px;
+    text-decoration: none;
+    align-items: center;
+    margin: 15px;
+    padding: 18px 30px;
+    
+}
+
+.apps{
+    border-left: 1px solid grey;
+    border-right:1px solid grey ;
+    padding: 0  10px;
+}
+
+.buttons .join-btn:hover{
+    background-color:grey;
+    /* height: 100px; */
+    border-radius: 30px;
+    color: white;
+    
+
+}
+
+.buttons .sign-in{
+    border-radius: 30px;
+    color: blue;
+    /* padding: 20px 30px; */
+    border: 2px solid blue;
+}
+
+.buttons .sign-in:hover{
+
+    background-color: rgb(130, 191, 241);
+
+}
