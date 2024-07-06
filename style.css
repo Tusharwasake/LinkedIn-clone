@@ -1,0 +1,62 @@
+.bug-text-color {
+    fill: white;
+}
+
+.background,.linkedin-text{
+    fill:#0a66c2;
+}
+
+.lazy-loaded {
+    width: 100px;
+    height: auto; /* Maintain aspect ratio */
+
+}
+
+
+
+.logo{
+    display:inline-block ;
+    margin: auto 160px auto 160px;
+}
+.buttons{
+    display:inline-block ;
+    text-align: center;
+    margin-bottom: 100ppx;
+
+}
+.buttons a {
+    padding: 20px;
+    text-decoration: none;align-items: center;
+    margin: 20px;
+    
+}
+body > navbar > div.buttons{
+    
+}
+
+ul .lazy-loaded{
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+
+.span_block{
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    display: inline-block;
+    margin-left:160px;
+    
+}
+
+ul li{
+    display: inline-block;
+    margin: 10px;
+    color: grey;
+    
+}
+
