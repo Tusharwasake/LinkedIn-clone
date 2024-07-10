@@ -2,8 +2,6 @@
 
 .nav-1{
     height: 70px;
-    /* line-height: 100px; */
-    /* float: left; */
 }
 
 
@@ -202,19 +200,21 @@ body > section > div > p:nth-child(6){
 }
 
 
-.container{
+.container1{
     display: flex;
     max-width: 1200px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     align-items: center;
+    float: left;
+    
 
 }
 
-.container div{
+.container1 div{
     margin-left: 100px;
 }
 
-.container h1{
+.container1 h1{
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -222,7 +222,7 @@ body > section > div > p:nth-child(6){
     margin-bottom: 20px;
   }
 
-.container p{
+.container1 p{
     font-size: 18px;
     color: #555;
     margin-bottom: 30px;
@@ -256,4 +256,39 @@ body > section > div > p:nth-child(6){
 }
 .buttons .show-all:hover {
     background-color: #0056b3;
+}
+
+.buttons li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #040404;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.buttons a:hover {
+    background-color: #f0f0f0;
+}
+.buttons .show-all {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+.buttons .show-all:hover {
+    background-color: #0056b3;
+}
+
+
+
+div h2{
+    margin-left: 50px;
+}
+
+
+.container{
+    display: contents;
 }
