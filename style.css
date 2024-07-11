@@ -15,11 +15,9 @@
 
 .lazy-loaded {
     width: 100px;
-    height: auto; /* Maintain aspect ratio */
+    height: auto;
 
 }
-
-
 
 .logo{
     display:inline-block ;
@@ -41,17 +39,12 @@ ul .lazy-loaded{
 ul {
     list-style-type: none;
     text-align: center;
-    padding: 0;
+    /* padding: 0; */
     display: inline-block;
-    margin-left:3rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    
 }
 
 ul li{
     display: inline-block;
-    margin: 1rem;
     color: grey;
     
 }
@@ -64,14 +57,6 @@ ul li{
 
 
 }
-.buttons1 a {
-    padding: 20px;
-    text-decoration: none;
-    align-items: center;
-    margin: 0.1rem  0.5em ;
-    padding: 18px 30px;
-    
-}
 
 .apps{
     border-left: 1px solid grey;
@@ -81,7 +66,6 @@ ul li{
 
 .buttons1 .join-btn:hover{
     background-color:grey;
-    /* height: 100px; */
     border-radius: 30px;
     color: white;
     
@@ -199,51 +183,12 @@ body > section > div > p:nth-child(6){
     text-decoration: none;
 }
 
-
-.container1{
-    display: flex;
-    max-width: 1200px;
-    /* margin-left: 80px; */
-    align-items: center;
-    float: left;
-    
-
-}
-
-.container1 div{
-    margin-left: 100px;
-}
-
-.container1 h1{
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-
-.container1 p{
-    font-size: 18px;
-    color: #555;
-    margin-bottom: 30px;
-  }
   
 .buttons{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 
-}
-
-.buttons a {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: 1px solid #040404;
-    background-color: #fff;
-    text-decoration: none;
-    color: #000;
-    border-radius: 20px;
 }
 
 .buttons a:hover {
@@ -281,14 +226,118 @@ body > section > div > p:nth-child(6){
 .buttons .show-all:hover {
     background-color: #0056b3;
 }
+  
+.container{
+    margin: 8rem auto;
+}
 
-
-
-div h2{
-    margin-left: 50px;
+body > div > div.container > div > div:nth-child(2) > ul{
+    padding-left: 0;
 }
 
 
-.container{
-    display: contents;
+body > div > div.row > div:nth-child(2) > ul{
+    padding-left: 0;
+}
+
+
+.container .content1{
+
+    padding-right: 100px;
+} 
+
+.container h1{
+    margin:0 20px 0 0;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+body > div.s4 > div > div > div:nth-child(2) > a{
+
+    align-content: center;
+}
+.s4{
+    background-color: #f1ece5;
+    width: 100%;
+    padding: 50px 100px;
+
+
+}
+
+.s4 .row{
+    width: 70%;
+}
+.s4 .row  div:nth-child(1){
+    
+    color: #b24020;
+}
+
+body > div.s4 > div > div > div:nth-child(2) > a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+    border: 1px solid blue;
+    padding: 15px 25px;
+    border-radius: 25px;
+ 
+}
+
+body > div.profile > div > div{
+
+    align-items: center;
+}
+body > div.profile > div > div > div.col-md-6 > h1{
+    color: #b24020;
+}
+
+.container .row :nth-child(2){
+    align-content: center;
+}
+
+
+.profile{
+    background-color: #f1ece5;
+    padding: 20px;
+}
+
+.profile div:nth-child(2) > img{
+    width: 450px;
+
+}
+body > div.profile > div > div > div.col-md-1 > icon > svg{
+    width: 20px;
+    padding-left: 5px;
+}
+
+
+
+
+.profile .container .row div p{
+
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* margin:200px; */
+}
+
+.grid-container div > img{
+ width: 312px;
+ height: 312px;
+}
+
+.container .grid-container button{
+    padding: 10px 40px;
+    margin-top: 20px;
+    background-color: white;
+    color: #000;
+    border-radius: 20px;
+}
+
+.container .grid-container  div:nth-child(3),div:nth-child(4){
+    padding: 0 100px 0 0;
 }
